@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>豐收農場</title>
+        <link rel="icon" href="/images/favicon.png" />
+        <meta name="description" content="網站介紹" />
+        <meta name="keywords" content="關鍵字,關鍵字" />
+        <meta name="generator" content="VSCode" />
+        <meta name="author" content="violett1100@gmail.com" />
+        <meta name="copyright" content="Copyright © All rights Reserved" />
+
+        <meta property="og:locale" content="zh" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image" content="/images/favicon.png" />
+        <meta property="og:image:alt" content="" />
+
+        <!-- css -->
+        <link rel="stylesheet" href="/css/normalize.css" />
+        <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+        <!-- <link rel="stylesheet" href="/css/animate.min.css" /> -->
+        <link rel="stylesheet" href="/css/style.css" />
+
+        <link rel="preload" href="/css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="/css/animate.min.css" /></noscript>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- start loading -->
+            <div id="loading" class="loading">
+                <div class="block1">
+                    <div class="bar"></div>
+                </div>
+                <div class="block2">
+                    <div class="bar"></div>
+                </div>
+                <div class="block3">
+                    <div class="bar"></div>
+                </div>
+                <div class="block4">
+                    <div class="bar"></div>
+                </div>
+                <div class="block5">
+                    <div class="bar"></div>
+                </div>
+            </div>
+            <!-- end loading -->
+
+            <!-- start header -->
+            <header class="header">
+                <div class="navbar">
+                    <a href="index.html" class="nav">
+                        <img src="/images/logo.webp" alt="H-FARM" class="logo" />
+                    </a>
+                    <ul class="nav nav-list">
+                        <li class="nav-item"><a href="javascript:demo();" class="nav-link">關於</a></li>
+                        <li class="nav-item"><a href="javascript:demo();" class="nav-link">體驗</a></li>
+                        <li class="nav-item"><a href="javascript:demo();" class="nav-link">消息</a></li>
+                        <li class="nav-item"><a href="javascript:demo();" class="nav-link">購物</a></li>
+                        <li class="nav-item">
+                            <a href="javascript:demo();" class="nav-link search"><span class="icon"></span></a>
+                        </li>
+                    </ul>
+                    <div class="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="navbar_height"></div>
+            </header>
+            <!-- end header -->
+
+            <main>
+                <section id="landing">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 wow animate__animated animate__slideInLeft">
+                                <h1>
+                                    <img src="/images/h1_title.webp" alt="THE BOUNTIFUL HARVEST" />
+                                </h1>
+                                <div class="banner_num m_show">01</div>
+                                <!-- <div class="banner_num m_show fadeToggle">01</div> -->
+                                <h3>歡迎來到豐收農場</h3>
+                                <div class="line"></div>
+                                <div class="banner_text">
+                                    <div class="banner_num dt_show">01</div>
+                                    <p>豐收農場擁有豐沃肥沃的土壤，致力於為客戶提供新鮮、可持續種植的農產品。</p>
+                                </div>
+                                <!-- <div class="banner_text fadeToggle">
+                                    <div class="banner_num dt_show">01</div>
+                                    <p>
+                                        擁有豐沃肥沃的土壤和優越的種植氣候，我們致力於為客戶提供新鮮、可持續種植的農產品。
+                                    </p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="img banner" style="background-image: url('/images/banner2.jpg')"></div> -->
+                    <div
+                        id="banner"
+                        class="img banner wow animate__animated animate__slideInRight"
+                        style="background-image: url('/images/banner1.webp')"
+                    ></div>
+                </section>
+                <section id="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9 wow animate__animated animate__slideInLeft">
+                                <h2>農場觀光導覽</h2>
+                                <div class="line"></div>
+                                <div class="row">
+                                    <div class="col-8 col-md-12">
+                                        <div class="text_group">
+                                            <a class="more_btn" href="javascript:demo();"></a>
+                                            <p>
+                                                探索我們的農場，參加導覽了解我們的可持續耕作方法、豐富的歷史和多樣化的農作物。體驗大自然的美麗和豐富，發掘食物的起源。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btns_group wow animate__animated animate__slideInRight">
+                            <a href="javascript:demo();" class="vertical_btn mb-3">蔬果採摘體驗</a
+                            ><a href="javascript:demo();" class="vertical_btn">餐飲食材準備</a>
+                        </div>
+                    </div>
+                    <div
+                        class="img about_img wow animate__animated animate__slideInUp"
+                        style="background-image: url(/images/about.webp)"
+                    ></div>
+                </section>
+                <section id="news">
+                    <div class="container">
+                        <h2 class="text_center wow animate__animated animate__slideInUp">農場最新消息</h2>
+                        <div class="row">
+                            <div class="col-md-5 offset-md-7">
+                                <div class="news_group wow animate__animated animate__slideInRight" data-wow-delay="0s">
+                                    <div class="date">2023.05.21</div>
+                                    <div class="line"></div>
+                                    <div class="text_group">
+                                        <a class="more_btn" href="javascript:demo();"></a>
+                                        <p>豐收農場實行可持續耕作，致力於保護生態環境和保障農業可持續發展</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="news_group wow animate__animated animate__slideInRight"
+                                    data-wow-delay="0.1s"
+                                >
+                                    <div class="date">2023.03.19</div>
+                                    <div class="line"></div>
+                                    <div class="text_group">
+                                        <a class="more_btn" href="javascript:demo();"></a>
+                                        <p>了解如何在家中製作營養豐富、美味的農場菜餚，並嘗試一些新的菜譜和食譜</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="news_group wow animate__animated animate__slideInRight"
+                                    data-wow-delay="0.2s"
+                                >
+                                    <div class="date">2023.01.06</div>
+                                    <div class="line"></div>
+                                    <div class="text_group">
+                                        <a class="more_btn" href="javascript:demo();"></a>
+                                        <p>豐收農場引進新的栽培技術，在2023年春季創下新的作物產量紀錄</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="img news_img wow animate__animated animate__slideInLeft"
+                        style="background-image: url('/images/news_img.webp')"
+                    ></div>
+                </section>
+                <section id="team">
+                    <div class="container">
+                        <h2 class="text_center wow animate__animated animate__slideInUp">經營團隊成員</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="member wow animate__animated animate__slideInUp" data-wow-delay="0s">
+                                    <span class="vertical_btn">農場營運經理</span>
+                                    <div>
+                                        <div class="profile">
+                                            <img
+                                                src="/images/member1.webp"
+                                                alt="image"
+                                                width="auto"
+                                                height="auto"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                        <div class="name">陳大福</div>
+                                        <p>負責監督農場的日常運營，管理員工，確保作物按照時間表種植、生長和收穫。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="member wow animate__animated animate__slideInUp" data-wow-delay="0.2s">
+                                    <span class="vertical_btn">植作總負責人</span>
+                                    <div>
+                                        <div class="profile">
+                                            <img
+                                                src="/images/member2.webp"
+                                                alt="image"
+                                                width="auto"
+                                                height="auto"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                        <div class="name">黃明天</div>
+                                        <p>管理農作物的栽培、種植和收穫，監督施肥和防治害蟲措施，以維護作物的健康。</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="member wow animate__animated animate__slideInUp" data-wow-delay="0.4s">
+                                    <span class="vertical_btn">銷售營銷經理</span>
+                                    <div>
+                                        <div class="profile">
+                                            <img
+                                                src="/images/member3.webp"
+                                                alt="image"
+                                                width="auto"
+                                                height="auto"
+                                                loading="lazy"
+                                            />
+                                        </div>
+                                        <div class="name">張玲雨</div>
+                                        <p>
+                                            向客戶推廣農場產品，管理農場的社交媒體，與當地企業和餐廳建立關係，銷售產品。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="store">
+                    <div class="container">
+                        <div class="title_group">
+                            <h2 class="wow animate__animated animate__slideInLeft">產品銷售門市</h2>
+                            <a href="javascript:demo();" class="online_btn wow animate__animated animate__slideInRight"
+                                >前往線上購物</a
+                            >
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="store_group wow animate__animated animate__slideInUp" data-wow-delay="0s">
+                                    <img
+                                        src="/images/store1.webp"
+                                        alt="image"
+                                        width="auto"
+                                        height="auto"
+                                        loading="lazy"
+                                    />
+                                    <div class="text_group">
+                                        <div class="title_group">
+                                            <div class="title">大台北門市</div>
+                                            <div class="address">台北市中山區民權東路一段</div>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="info_group">
+                                            <a class="more_btn" href="javascript:demo();"></a>
+                                            <p>
+                                                營業時間 ｜ 週一至六 08:00~21:00<br />
+                                                聯絡電話 ｜ (02)2345-5678
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="store_group wow animate__animated animate__slideInUp" data-wow-delay="0.1s">
+                                    <img
+                                        src="/images/store2.webp"
+                                        alt="image"
+                                        width="auto"
+                                        height="auto"
+                                        loading="lazy"
+                                    />
+                                    <div class="text_group">
+                                        <div class="title_group">
+                                            <div class="title">大台中門市</div>
+                                            <div class="address">台中市北屯區崇德十路一段</div>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="info_group">
+                                            <a class="more_btn" href="javascript:demo();"></a>
+                                            <p>
+                                                營業時間 ｜ 週一至六 08:00~21:00<br />
+                                                聯絡電話 ｜ (02)2345-5678
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="store_group wow animate__animated animate__slideInUp" data-wow-delay="0.2s">
+                                    <img
+                                        src="/images/store3.webp"
+                                        alt="image"
+                                        width="auto"
+                                        height="auto"
+                                        loading="lazy"
+                                    />
+                                    <div class="text_group">
+                                        <div class="title_group">
+                                            <div class="title">大高雄門市</div>
+                                            <div class="address">高雄市鼓山區大順一路</div>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="info_group">
+                                            <a class="more_btn" href="javascript:demo();"></a>
+                                            <p>
+                                                營業時間 ｜ 週一至六 08:00~21:00<br />
+                                                聯絡電話 ｜ (02)2345-5678
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="store_group wow animate__animated animate__slideInUp" data-wow-delay="0.3s">
+                                    <img
+                                        src="/images/store4.webp"
+                                        alt="image"
+                                        width="auto"
+                                        height="auto"
+                                        loading="lazy"
+                                    />
+                                    <div class="text_group">
+                                        <div class="title_group">
+                                            <div class="title">東部門市</div>
+                                            <div class="address">台東縣台東市新生路</div>
+                                        </div>
+                                        <div class="line"></div>
+                                        <div class="info_group">
+                                            <a class="more_btn" href="javascript:demo();"></a>
+                                            <p>
+                                                營業時間 ｜ 週一至六 08:00~21:00<br />
+                                                聯絡電話 ｜ (02)2345-5678
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="traffic">
+                    <div
+                        class="img store_img wow animate__animated animate__slideInUp"
+                        style="background-image: url(/images/store_img.webp)"
+                    ></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 wow animate__animated animate__slideInLeft">
+                                <h2>前往交通方式</h2>
+                                <div class="line"></div>
+                                <div class="text_group">
+                                    <a class="more_btn" href="javascript:demo();"></a>
+                                    <div>
+                                        <div class="subtitle">開車前往</div>
+                                        <p>
+                                            導航定位台東縣卑南鄉初鹿，行經台東路見到7-11後右轉，行駛約5分鐘後將抵達農場大門。
+                                        </p>
+                                        <div class="subtitle">大眾運輸</div>
+                                        <p>
+                                            搭乘火車至台東火車站，轉成公車下車後向東步行約600公尺(12分鐘)將抵達農場大門。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="iframe wow animate__animated animate__slideInRight">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29414.236651540697!2d121.07581599999999!3d22.847643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346fb06427be16c3%3A0x3a219adc4b170c89!2z5be06Jit6YG65Z2A!5e0!3m2!1szh-TW!2stw!4v1705641215503!5m2!1szh-TW!2stw"
+                                        width="600"
+                                        height="450"
+                                        style="border: 0"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- start footer -->
+            <footer>
+                <div class="upper">
+                    <div class="container">
+                        <div class="footer_flex">
+                            <div class="image_group">
+                                <img src="/images/logo.webp" alt="LOGO" class="logo" />
+                                <a href="javascript:demo();" class="icon facebook"
+                                    ><span style="background-image: url('/images/icon_FB.webp')"></span
+                                ></a>
+                                <a href="javascript:demo();" class="icon"
+                                    ><span style="background-image: url('/images/icon_IG.webp')"></span
+                                ></a>
+                            </div>
+                            <div class="text_group">
+                                <div>
+                                    <p>客服電話 ｜ (02)2345-5678</p>
+                                    <p>農場地址 ｜ 台東縣卑南鄉初鹿三街</p>
+                                </div>
+                                <div>
+                                    <p>電子郵件 ｜ service@hfarm.io</p>
+                                    <p>營業時間 ｜ 週一至五 9:00-18:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <div class="container">
+                        2023 Copyright © Violet Website. <br class="m_show" />All Rights Reserved.
+                    </div>
+                </div>
+            </footer>
+            <!-- end footer -->
+        </div>
+
+        <!-- js -->
+        <script defer src="/js/jquery-3.5.1.min.js"></script>
+        <script defer src="/js/wow.min.js"></script>
+        <script defer src="/js/main.js"></script>
+    </body>
+</html>
